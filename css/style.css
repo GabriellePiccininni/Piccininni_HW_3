@@ -1,0 +1,226 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 2% 45% 2% 0%; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 2% 0% 2% 45%; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     background: #f0efef;
+     color: #000;
+     width: 1000px;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', sans-serif;
+     margin: 0px 50px 0px 50px;
+     
+  
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+
+#navigation {
+  background: #033048; 
+  height: 80px;
+  width: 100%;
+  
+}
+
+h1 {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  float: left;
+  margin: 15px 0px 15px 35px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  padding: 30px 0px 10px 0px;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  padding: 30px 0px 5px 0px;
+
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  padding: 10px 10px;
+}
+.readMore {
+  float:right;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 20px 0px 20px 0px;
+}
+
+.learnMore {
+  font-weight: 600;
+  float: right;
+}
+
+#dropCap:before {
+  content: "L";
+  font-family: 'Open Sans', sans-serif;
+  font-size: 80px;
+  font-weight: 500;
+  display: inline-block;
+  float: left;
+  line-height: 80px;
+  padding-right: 10px;
+}
+
+ul.nav {
+  float: right;
+  padding: 20px 40px 0px 0px;
+}
+
+li.navItem {
+  color: #f9e42e;
+  font-size: 24px;
+  display: inline;
+  margin: 20px 20px 0px 20px;
+}
+
+main {
+  width: 700px;
+  border-bottom: solid black 1px;
+  margin: 10px 0px 0px 30px;
+}
+
+main.columnStory1 {
+  float: left;  
+}
+
+main.columnStory2 {
+  float: none;
+}
+
+aside.columnSideCategories {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 300; 
+  width: 240px;
+  height: 260px;
+  float: right;
+  margin: 10px 0px 10px 10px;
+  }
+
+  aside.columnSideAbout {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 300; 
+  width: 240px;
+  height: 410px;
+  float: right;
+  margin: 10px 0px 10px 10px;
+  }
+
+#adUnit {
+  float: right;
+  width: 240px;
+  margin: 10px 0px 10px 10px;
+}
+
+ section.signUpBand {
+  background-color: #f9e42e;
+  width: 1000px;
+  padding: 20px 0;
+  clear: both;
+}
+
+div.signUpButton {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  background-color: #033048;
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: auto;
+  clear: both;
+}
+
+section#footer{
+   background: #121212;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.footerHeader {
+  color: #f9e42e;
+  font-weight: 800;
+  font-size: 40px;
+  padding: 30px 30px;
+  text-align: center;
+}
+
+.copyright {
+  color: white;
+  font-weight: 600;
+  font-size: 9px;
+  text-align: center;
+  clear: both;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
