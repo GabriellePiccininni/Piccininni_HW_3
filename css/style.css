@@ -71,6 +71,7 @@ body {
 
 h1 {
   color: white;
+  /*Because you declared the font at the top of the body, it inherits down so you don't need to add it to every element individually*/
   font-family: 'Open Sans', sans-serif;
   font-size: 32px;
   font-weight: 800;
@@ -98,6 +99,7 @@ p {
   font-size: 24px;
   padding: 10px 10px;
 }
+/*All of your links should have a :hover on them from the rubric*/
 .readMore {
   float:right;
   font-family: 'Open Sans', sans-serif;
